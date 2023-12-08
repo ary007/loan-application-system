@@ -1,1 +1,62 @@
-node_modules
+# Dependencies
+.yarn/*
+!.yarn/patches
+!.yarn/releases
+!.yarn/plugins
+!.yarn/sdks
+!.yarn/versions
+.pnp.*
+
+node_modules/
+
+# Test Artifacts
+test-report.xml
+
+# Misc
+Thumbs.db
+.DS_Store
+build/
+target/
+out/
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+*.swp
+.project
+.settings
+
+
+user.env
+.terraform
+terraform.tfstate.d/
+dist/
+output/
+.bash_history
+.aws
+.okta
+*.tar.gz
+.coverage
+coverage.xml
+htmlcov
+jfrog
+
+env-local.mk
+
+.mypy_cache
+__pycache__
+
+# ci-scripts working files
+__ci.tf
+__init.tf
+__localstate.json
+*.tfplan
+*.tfplan.json
+/**/__ci/
+
+
+# Translation fragments
+*.pot
+*.po
+
