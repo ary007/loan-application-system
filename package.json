@@ -8,10 +8,12 @@
     "backend",
     "frontend"
   ],
-  "scripts":{
-   "start": "concurrently \"yarn workspace backend start\" \"yarn workspace frontend start\""
+  "scripts": {
+    "start": "concurrently \"yarn workspace backend start\" \"yarn workspace frontend start\""
   },
   "devDependencies": {
-    "concurrently": "^8.2.2"
+    "@types/node": "^20.10.4",
+    "concurrently": "^8.2.2",
+    "typescript": "^5.3.3"
   }
 }
